@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatitos para el mundo</title>
+
+
 </head>
 <body>
     <h1>Bienvenidos a esta nueva Pagina</h1>
@@ -84,8 +86,26 @@
     </ol>
     <br><br>
     <p>Ahora veremos listas ordenadas</p>
-    <table>
-         
+    <table style="border: 1px solid black; width: 500px;">
+         <thead> <!-- agrupa la cabezera; le indica al explorador que es la cabezera-->
+            <tr> <!--indican una fila dentro de la tabla-->
+                <th style="border: 1px solid black;">Titulo Columna 1</th> <!--es el titulo que estara centrada con respecto a la columna-->
+                <th style="border: 1px solid black;">Titulo Columna 2</th>
+                <th style="border: 1px solid black;">Titulo Columna 3</th>
+             </tr>
+         </thead>
+         <tbody> <!--agrupa el cuerpo de una tabla-->
+            <tr>
+                <td style="border: 1px solid black;">Elemento Col 1</td> <!--es el elemento y estaran alineados a la izquierda de la columna-->
+                <td style="border: 1px solid black;">Elemento Col 2</td>
+                <td style="border: 1px solid black;">Elemento Col 3</td>
+             </tr>
+             <tr>
+                <td style="border: 1px solid black;">Elemento Col 1</td>
+                <td style="border: 1px solid black;">Elemento Col 2</td>
+                <td style="border: 1px solid black;">Elemento Col 3</td>
+             </tr>
+         </tbody>
     </table>
 </body>
 </html>
