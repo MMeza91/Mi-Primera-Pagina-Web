@@ -17,6 +17,29 @@
         <li><a class="dropdown-item" href="./gatito_05.html">Gatito Hambriento</a></li>
     </ul>
     <p>Por mucho que se escriba cerca, el sistema seguira colocando a esta distancia las secciones. Se utiliza "<code>&lt;br&gt;</code>" <br> para saltar de linea</p>
+    <br><br>
+    <p>Ahora veremos como ingresar un formulario</p>
+
+    <!--Esto es un comentario-->
+    <form action="ruta" method="post">
+        <label for="identificador_01">Nombre</label> 
+        <!--for me permite que sin importar si apreto el contenedor o el identificador, 
+        igual puedo escribir la información en el espacio asignado-->
+        <input type="text" id="identificador_01" name="nombre" placeholder="Nombre en letra gris suave">
+        <!--se le asignan atributos al contenedor, name da el nombre que tendra la informacion al ser enviada es decir, la llave-->
+        <br>
+        <label for="identificador_02">Apellido</label> 
+        <input type="text" id="identificador_02" name="apellido" placeholder="Apellido en letra gris suave">
+        <br>
+        <label for="identificador_03">Comentario</label>
+        <textarea cols="50" rows="10" id="identificador_03" name="comentario" placeholder="Ingrese Comentario"></textarea> 
+        <br>
+        <input type="submit"> <!--botonera no personalizable-->
+        <button type="button">Boton</button> <!--se debe especificar el comportamiento con javascript-->
+        <button type="reset">Refrescar</button>
+        <button type="submit">Enviar</button> <!--similar a input tipo submit, pero permite personalizarlo ad-->
+
+    </form>
 
 
 </body>
